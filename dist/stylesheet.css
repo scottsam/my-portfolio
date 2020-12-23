@@ -74,8 +74,9 @@ main {
 }
 
 .project-title {
-  margin-top: 0;
-  font-size: 1.3em;
+  margin-top: 15px;
+  font-size: 1.6em;
+  text-align: center;
 }
 
 img {
@@ -83,7 +84,7 @@ img {
 }
 
 .website-link {
-  color: #bbdefb;
+  color: white;
   cursor: pointer;
   text-decoration: none;
 }
@@ -93,7 +94,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 .tech-list li {
-  margin: 5px 0;
+  margin: 10px 20px;
 }
 
 .project-links {
@@ -144,4 +145,29 @@ img {
   .about-content {
     padding: 0 25%;
   }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem;
+  margin: 8px;
+  background-color: coral;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 0.7;
+  transform: translateX(-2%);
+}
+
+.project-left-container {
+  margin-top: 5px;
 }
